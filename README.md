@@ -54,7 +54,7 @@ and maintainabilty.
       The code is to be run with the controller.py package. 
 
 ## Additinal documents
-The rationale and class diagram may be found in the document folder
+The rationale and class diagram may be found in the __Documents__ folder
 
 ## External libraries used in the application:
 1. _ABC_: This module provides the infrastructure for defining abstract base classes (ABCs) in Python
