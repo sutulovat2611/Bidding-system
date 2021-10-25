@@ -1,4 +1,4 @@
-## Description 
+# Description 
 The application is an online matching system to put prospective students in touch with private tutors. 
 Users whose accounts exist in the API are allowed to login into the application using their username and 
 the respective password. The account is initially assigned a role, so that the user will be immediately logged in 
@@ -44,20 +44,27 @@ If a bid is close, the tutor may create an offer and negotiate with the student 
 ### Monitoring page
 The tutor may add any open bid to the monitoring page and all the offers for all the bids on that page will be updated every 30 seconds.
 
+# Development
+The application was developed in Python with Tkinter GUI toolkit. The main goal of this project was to not just create a working system,
+but to ensure that the application is developed in an object oriented programming model utilizing various object oriented principles, such
+as SOLID principles and different design patterns, such as factory method, adapter pattern, etc. That ensured the application's extensibility 
+and maintainabilty.
 
-1. The code is to be run with the controller.py package.
-2. The link to the demonstration video: https://youtu.be/2hcaUkP9Iq4
-3. The rationale and class diagram may be found in the document folder
+### Running the application
+      The code is to be run with the controller.py package. 
 
-External libraries used in our app:
-1. ABC: This module provides the infrastructure for defining abstract base classes (ABCs) in Python
-2. requests: The requests module allows you to send HTTP requests using Python.The HTTP request returns a 
+## Additinal documents
+The rationale and class diagram may be found in the document folder
+
+## External libraries used in the application:
+1. _ABC_: This module provides the infrastructure for defining abstract base classes (ABCs) in Python
+2. _requests_: The requests module allows you to send HTTP requests using Python.The HTTP request returns a 
 Response Object with all the response data (content, encoding, status, etc).
-3. json: a built-in package, which can be used to work with JSON data.
-4. tkinter: the standard Python interface to the Tk GUI toolkit.
-5. datetime: a date in Python is not a data type of its own, but we can import a module named datetime to work 
+3. _json_: a built-in package, which can be used to work with JSON data.
+4. _tkinter_: the standard Python interface to the Tk GUI toolkit.
+5. _datetime_: a date in Python is not a data type of its own, but we can import a module named datetime to work 
 with dates as date objects.
-6. dateutil: provides powerful extensions to the standard datetime module, available in Python.
-7. PIL: The Python Imaging Library adds image processing capabilities to your Python interpreter.This library provides 
+6. _dateutil_: provides powerful extensions to the standard datetime module, available in Python.
+7. _PIL_: The Python Imaging Library adds image processing capabilities to your Python interpreter.This library provides 
 extensive file format support, an efficient internal representation, and fairly powerful image processing capabilities.
-8. threading: Using threads allows a program to run multiple operations concurrently in the same process space.
+8. _threading_: Using threads allows a program to run multiple operations concurrently in the same process space.
